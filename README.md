@@ -27,6 +27,10 @@ or you can load manually json file like a library for detect this macropad
 - If nothing happend , do it again from first 
 
 ## Preview Hardware
+there is 2 type of case
+- Floating Case with white and black color
+- Covered Case with red color
+
 <p align="center">
   <img src="DOC/HARDWARE/redox1.jpeg" width="50%" height="50%">
   <img src="DOC/HARDWARE/redox2.jpeg" width="50%" height="50%">
