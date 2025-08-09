@@ -1,4 +1,8 @@
-DEFAULT_FOLDER = redox/rev1
+
+
+# Disable unsupported hardware
+AUDIO_SUPPORTED = no
+BACKLIGHT_SUPPORTED = no
 OLED_ENABLE = yes
 OLED_DRIVER = ssd1306
 ENCODER_ENABLE = yes
