@@ -8,17 +8,23 @@
     },
     "diode_direction": "COL2ROW",
     "encoder": {
+        "enabled": true,
         "rotary": [
-            {"pin_a": "B5", "pin_b": "F4", "resolution": 2}
+            {"pin_a": "F4", "pin_b": "B5", "resolution": 2}
         ]
     },
     "split":{
         "enabled": true,
         "soft_serial_pin": "D2",
+        "transport": {
+            "sync": {
+                "matrix_state": true
+            }
+        },
         "encoder": {
             "right": {
                 "rotary": [
-                    {"pin_a": "F4", "pin_b": "B5", "resolution": 2}
+                    {"pin_a": "B5", "pin_b": "F4", "resolution": 2}
                 ]
             }
         }

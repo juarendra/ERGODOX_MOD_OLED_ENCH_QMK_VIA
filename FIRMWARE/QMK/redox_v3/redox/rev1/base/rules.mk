@@ -1,9 +1,0 @@
-
-
-# Disable unsupported hardware
-AUDIO_SUPPORTED = no
-BACKLIGHT_SUPPORTED = no
-OLED_ENABLE = yes
-OLED_DRIVER = ssd1306
-ENCODER_ENABLE = yes
-ENCODER_MAP_ENABLE = yes
